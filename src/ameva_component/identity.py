@@ -65,7 +65,7 @@ ALLOWED_CAPABILITIES: dict[str, frozenset[str]] = {
 VALID_COMPONENT_TYPES: frozenset[str] = frozenset(ALLOWED_CAPABILITIES.keys())
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class ComponentInfo:
     """
     패키지 자기 신원 정보.

@@ -4,19 +4,22 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ameva-component-sdk"
-version = "0.1.1"
+version = "0.1.2"
 description = "Shared SDK for AMEVA Component Protocol v1 - common control plane, state file, and model manifest abstractions for all termux-* packages"
 readme = "README.md"
-requires-python = ">=3.10"
-license = { text = "MIT" }
+requires-python = ">=3.8"
+license = { text = "Apache-2.0" }
 authors = [{ name = "uno-km (AMEVA Foundation)", email = "zhfldk014745@naver.com" }]
 keywords = ["ameva", "termux", "ai", "orchestrator", "component", "protocol"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: Apache Software License",
     "Operating System :: POSIX :: Linux",
 ]
 dependencies = []

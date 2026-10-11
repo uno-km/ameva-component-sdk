@@ -52,7 +52,7 @@ from ameva_component.registry import InstanceRegistry, ModelRegistry
 from ameva_component.state import ComponentStateFile, resolve_state_dir
 from ameva_component.timestamps import is_stale, now_timestamps, process_start_timestamps
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 __all__ = [
     # 핵심 추상 클래스

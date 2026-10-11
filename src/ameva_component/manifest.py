@@ -55,7 +55,7 @@ class ModelState(str, Enum):
         return self in (ModelState.FAILED, ModelState.QUARANTINED)
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class ModelFile:
     """모델을 구성하는 개별 파일."""
     filename: str
@@ -81,7 +81,7 @@ class ModelFile:
         return h.hexdigest().lower() == self.sha256.lower()
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class ModelManifest:
     """
     AMEVA Model Manifest v1.

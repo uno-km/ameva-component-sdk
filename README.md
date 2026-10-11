@@ -29,7 +29,7 @@ pip install -e .
 PyPI 없이 GitHub Releases에서 바로 설치합니다. 설치 전 `SHA256SUMS`로 해시를 확인할 수 있습니다.
 
 ```bash
-pip install https://github.com/uno-km/ameva-component-sdk/releases/download/v0.1.1/ameva_component_sdk-0.1.1-py3-none-any.whl
+pip install https://github.com/uno-km/ameva-component-sdk/releases/download/v0.1.2/ameva_component_sdk-0.1.2-py3-none-any.whl
 ```
 
-Python 3.10 이상, 표준 라이브러리만 사용합니다.
+Python 3.8 이상, 표준 라이브러리만 사용합니다.

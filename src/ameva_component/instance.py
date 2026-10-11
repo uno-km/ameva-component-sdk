@@ -54,7 +54,7 @@ class ControlMode(str, Enum):
     REST         = "rest"          # 4순위: Localhost REST Server
 
 
-@dataclass(slots=True)
+@dataclass
 class InstanceStatus:
     """
     Instance 실행 상태.
