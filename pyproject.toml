@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ameva-component-sdk"
+version = "0.1.1"
+description = "Shared SDK for AMEVA Component Protocol v1 - common control plane, state file, and model manifest abstractions for all termux-* packages"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "uno-km (AMEVA Foundation)", email = "zhfldk014745@naver.com" }]
+keywords = ["ameva", "termux", "ai", "orchestrator", "component", "protocol"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "pytest-asyncio>=0.23"]
+
+[project.urls]
+Homepage = "https://github.com/uno-km/ameva-component-sdk"
+Repository = "https://github.com/uno-km/ameva-component-sdk"
+
+[tool.setuptools.packages.find]
+where = ["src"]
