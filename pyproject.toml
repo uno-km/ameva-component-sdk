@@ -9,7 +9,7 @@ description = "Shared SDK for AMEVA Component Protocol v1 - common control plane
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "Apache-2.0" }
-authors = [{ name = "uno-km (AMEVA Foundation)", email = "zhfldk014745@naver.com" }]
+authors = [{ name = "uno-km (AMEVA Foundation)", email = "amv.foundation.kr@gmail.com" }]
 keywords = ["ameva", "termux", "ai", "orchestrator", "component", "protocol"]
 classifiers = [
     "Development Status :: 3 - Alpha",
